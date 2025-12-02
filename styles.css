@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.container{
+	background-color: #f5f5f5;
+	width: 600px;
+	height: 220px;
+	padding: 20px
+}
+.testimonial-section{
+	border: 1px solid black;
+	background-color: white;
+	width: 600px;
+	height: 50px;
+	
+}
+.testimonial-section,
+.testimonial-text,
+.author{
+	display: flex;
+	font-size: 14px;
+	gap: 35px
+}
+.testimonial-text{
+	padding: 3px;
+}
+#author{
+	text-align: left; 
+	 font-style: italic;
+}
